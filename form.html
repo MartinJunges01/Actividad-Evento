@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulario de Compra</h1>
+    <div class="form-wrapper">
+        <form action="" id="contact_form">
+            <div class="seccion-nombre">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+
+            <div class="seccion-apellido">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+
+            <div class="seccion-tel">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+54 3496 123456">
+            </div>
+
+            <div class="form-group">
+                <label for="idioma_de_interes">Idioma de interés</label>
+                <select name="idioma_de_interes" id="idioma_de_interes">
+                    <option value="ingles">Inglés</option>
+                    <option value="frances">Francés</option>
+                    <option value="italiano">Italiano</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="nivel_previo">Nivel previo</label>
+                <select name="nivel_previo" id="nivel_previo">
+                    <option value="principiante">Principiante</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="avanzado">Avanzado</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>¿Pertenece a una empresa?</label>
+                <div class="radio-options">
+                    <input type="radio" id="empresa_si" name="empresa" value="si">
+                    <label for="empresa_si">Sí</label>
+                    <input type="radio" id="empresa_no" name="empresa" value="no">
+                    <label for="empresa_no">No</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>¿Desea comprar un pack grupal?</label>
+                <div class="radio-options">
+                    <input type="radio" id="pack_si" name="pack" value="si">
+                    <label for="pack_si">Sí</label>
+                    <input type="radio" id="pack_no" name="pack" value="no">
+                    <label for="pack_no">No</label>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+    </form>
+</body>
+
+</html>
