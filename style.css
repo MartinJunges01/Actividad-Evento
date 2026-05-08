@@ -1,0 +1,25 @@
+header {
+    background-color: red;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
