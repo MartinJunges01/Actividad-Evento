@@ -3,31 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F1 Tickets</title>
+    <title>F1 // Showcase Eventos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <main>
-        <article>
-            <p><strong>DESTACADO: Gran Premio 2026</strong></p>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">F1_ARCHIVE</h1>
+            <p class="tagline">CALENDARIO DE COMPETICIÓN 2026</p>
+        </div>
+    </header>
 
-            <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Canada.jpg" alt="F1 Grand Prix Canadá 2026" width="600">
+    <main class="container">
+        <article class="event-card">
+            <div class="ad-ribbon">DESTACADO // PREVENTA</div>
+            
+            <figure class="event-image">
+                <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Canada.jpg" alt="GP Canada">
+            </figure>
 
-            <h2>Formula 1 Lenovo Grand Prix Du Canada 2026</h2>
+            <section class="event-content">
+                <h2 class="event-title">GP DU CANADA 2026</h2>
+                
+                <div class="event-grid">
+                    <div class="grid-item">
+                        <span class="label">DÍA</span>
+                        <span class="value">22.05 — 24.05</span>
+                    </div>
+                    <div class="grid-item">
+                        <span class="label">LUGAR</span>
+                        <span class="value">MONTREAL, CA</span>
+                    </div>
+                    <div class="grid-item">
+                        <span class="label">HORA</span>
+                        <span class="value">14:00 LOCAL</span>
+                    </div>
+                    <div class="grid-item">
+                        <span class="label">COSO</span>
+                        <span class="value">70 VUELTAS / 4.3KM</span>
+                    </div>
+                </div>
 
-            <ul>
-                <li><strong>Día:</strong> 22 al 24 de Mayo</li>
-                <li><strong>Lugar:</strong> Montreal, Canadá</li>
-                <li><strong>Hora:</strong> 14:00 hs (Local)</li>
-            </ul>
+                <div class="event-footer">
+                    <div class="price-box">
+                        <span class="label">COSTO</span>
+                        <span class="price">€731.50</span>
+                    </div>
+                    <form action="#" method="GET">
+                        <button type="submit" class="btn-primary">RESERVAR_PLAZA</button>
+                    </form>
+                </div>
+            </section>
+        </article>
 
-            <p><strong>Costo:</strong> Desde 731,50 € (Pase de 3 días)</p>
+        <article class="event-card">
+            <div class="ad-ribbon">VENTA_ABIERTA</div>
+            
+            <figure class="event-image">
+                <img src="https://media.formula1.com/image/upload/content/dam/fom-website/2018-redesign-assets/Racehub%20header%20images%2016x9/Spain.jpg" alt="GP España">
+            </figure>
 
-            <form action="/comprar" method="POST">
-                <button type="submit">Comprar Entradas</button>
-            </form>
+            <section class="event-content">
+                <h2 class="event-title">GRAN PREMIO DE ESPAÑA</h2>
+                
+                <div class="event-grid">
+                    <div class="grid-item">
+                        <span class="label">DÍA</span>
+                        <span class="value">05.06 — 07.06</span>
+                    </div>
+                    <div class="grid-item">
+                        <span class="label">LUGAR</span>
+                        <span class="value">BARCELONA, ES</span>
+                    </div>
+                    <div class="grid-item">
+                        <span class="label">HORA</span>
+                        <span class="value">15:00 LOCAL</span>
+                    </div>
+                    <div class="grid-item">
+                        <span class="label">COSO</span>
+                        <span class="value">DRS ZONES: 2</span>
+                    </div>
+                </div>
+
+                <div class="event-footer">
+                    <div class="price-box">
+                        <span class="label">COSTO</span>
+                        <span class="price">€450.00</span>
+                    </div>
+                    <form action="#" method="GET">
+                        <button type="submit" class="btn-primary">RESERVAR_PLAZA</button>
+                    </form>
+                </div>
+            </section>
         </article>
     </main>
+
+    <footer class="main-footer">
+        <p>SYSTEM_READY // 2026</p>
+    </footer>
 
 </body>
 </html>
