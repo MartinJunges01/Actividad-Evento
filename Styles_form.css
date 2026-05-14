@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Racing Sans One', ' Sans-serif';
+
+}
+
+body {
+    background-color: #7c7676;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+h1 {
+    color: red;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#contact-form {
+    display: flex;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+input {
+    min-width: 200px;
+    margin: 5px;
+}
